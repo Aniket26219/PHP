@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html> 
 <body>
-    <?php
-    $place =  "Pune";
-    echo "I want to go to " . $place . "<br>";
-    ECHO "I want to go to " . $PLACE . "<br>";
-    EcHo "I want to go to " . $PlaCe . "<br>";
-    ?>
+<?php
+    $txt = "Sample text";
+    $num = 10;
+    $dec = 10.2;
+    echo $txt . "<br>";
+    echo $num . "<br>";
+    echo $dec . "<br>"
+?>
 </body>
 </html>
