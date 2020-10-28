@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html> 
 <body>
-    <h1>My First Web Page</h1>
     <?php
-    echo "Hello World";
-    ECHO "Hello World";
-    EcHo "Hello World";
+    $place =  "Pune";
+    echo "I want to go to" . $place . "<br>";
+    ECHO "I want to go to" . $PLACE . "<br>";
+    EcHo "I want to go to" . $PlaCe . "<br>";
     ?>
 </body>
 </html>
