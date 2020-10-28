@@ -3,7 +3,9 @@
 <body>
     <h1>My First Web Page</h1>
     <?php
-    echo "Hello World"
+    echo "Hello World";
+    ECHO "Hello World";
+    EcHo "Hello World";
     ?>
 </body>
 </html>
