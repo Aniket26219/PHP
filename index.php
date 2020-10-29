@@ -2,7 +2,7 @@
 <html> 
 <body>
 <?php
-    echo strpos("My name is Aniket", "is")
+    echo str_replace("Aniket", "Sagar", "My name is Aniket")
 ?>
 </body>
 </html>
