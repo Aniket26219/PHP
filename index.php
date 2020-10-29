@@ -2,26 +2,11 @@
 <html> 
 <body>
 <?php
-    class Candidates{
-        public $name;
-        public $email;
-        public $mobno;
-        public $location;
-        public function __construct($nme, $emal, $mobileno, $loc){
-            $this->name = $nme;
-            $this->email = $emal;
-            $this->mobno = $mobileno;
-            $this->location = $loc;
-        }
-        public function show(){
-            return "Candidate Name :- " . $this->name . " <br>Candidate Email :- " . $this->email . "<br>Candidate Mobile NO :- " . $this->mobno . "<br>Candidate's Current Location :- " . $this->location;
-        }
-    }
-    $Aniket = new Candidates("Aniket", "aniketsample@gmail.com", 9999999999, "Nanded");
-    echo $Aniket -> show();
-    echo "<br>";
-    $Sagar = new Candidates("Sagar", "sagarsample@gmail.com", 9999999999, "Pune");
-    echo $Sagar -> show();
+    $a = "Hello";
+    $a = null;
+    echo "$a<br>";
+    var_dump($a);
 ?>
 </body>
 </html>
+<!-- when we make a variable data type to NULL the value we gave it before making it null will also be gone. For above example we'll get output only null not Hello cuz we have made it null -->
