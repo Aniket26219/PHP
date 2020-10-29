@@ -2,15 +2,15 @@
 <html> 
 <body>
 <?php
+    $a = 10;
+    $b = 20;
     function test(){
-        $txt = "Sample text";
-        echo "Some $txt <br>"; 
-        //This one is going to show output cuz the variables is declared in local scope we are able access the local variables in local scope
+        global $a, $b;
+        $b = $a + $b;
     }
     test();
-    echo "Some $txt"
-    //This one will not show the variable cuz it is global scope which not accepts local scope
-    //From current understanding of mine says that global variables are accepted only in global scopes only and local variables accepted by local scope only.
+    echo $b;
+    //From this I have understanded that if we do any operation on the global variables in a function it will affect it out of it's local scope only when we call that function otherwise it will not affect it. If we don't call the function the the value will be 20 and if we call then the value will be 30.
 ?>
 </body>
 </html>
