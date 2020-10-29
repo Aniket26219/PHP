@@ -2,17 +2,11 @@
 <html> 
 <body>
 <?php
-    $a = 24;
-    $b = 2.4;
-    var_dump(is_float($a));
-    echo "<br>";
-    var_dump(is_float($b));
-    echo "<br>";
-    var_dump(is_double($a));
-    echo "<br>";
-    var_dump(is_double($b));
+    $a = 2.3e821;
+    var_dump($a);
+    $b = 2.4e123;
+    var_dump($b);
 ?>
 </body>
 </html>
-<!-- above three methods is_float() and is_double() are to check whether the given number is float or not -->
 <!-- important thing to know is that even if 4 * 2.5 is 10, the result is stored as float, because one of the operands is a float -->
