@@ -2,8 +2,7 @@
 <html> 
 <body>
 <?php
-    echo (abs(-34.3))
+    echo (sqrt(25))     //sqrt = square root
 ?>
 </body>
 </html>
-<!-- the absolute / abs() function returns +ve value -->
