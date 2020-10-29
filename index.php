@@ -3,11 +3,18 @@
 <body>
 <?php
     $a = 24;
+    $b = 2.4;
     var_dump(is_int($a));
+    echo "<br>";
+    var_dump(is_int($b));
     echo "<br>";
     var_dump(is_integer($a));
     echo "<br>";
-    var_dump(is_long($a))
+    var_dump(is_integer($b));
+    echo "<br>";
+    var_dump(is_long($a));
+    echo "<br>";
+    var_dump(is_long($b))
 ?>
 </body>
 </html>
