@@ -2,7 +2,7 @@
 <html> 
 <body>
 <?php
-    echo strlen("My name is Aniket")
+    echo str_word_count("My name is Aniket")
 ?>
 </body>
 </html>
