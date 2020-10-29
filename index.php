@@ -2,8 +2,8 @@
 <html> 
 <body>
 <?php
-    define("a", "I am Aniket", true);
-    echo A;
+    define("mobiles", ["Samsung", "Iphone", "BlackBerry"], true);
+    echo MOBILES[2];
 ?>
 </body>
 </html>
