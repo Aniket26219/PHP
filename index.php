@@ -2,7 +2,7 @@
 <html> 
 <body>
 <?php
-    echo strrev("My name is Aniket")
+    echo strpos("My name is Aniket", "is")
 ?>
 </body>
 </html>
