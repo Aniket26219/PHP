@@ -2,22 +2,23 @@
 <html> 
 <body>
 <?php
-    class Candidates{
-        public $name;
-        public $location;
-        public function __construct($name, $location){
-            $this->name = $name;
-            $this->location = $location;
+    class Laptops{
+        public $company;
+        public $price;
+        public function __construct($comp, $pr){
+            $this->company = $comp;
+            $this->price = $pr;
         }
         public function show(){
-            return "Candidate's Name :- " . $this->name . "<br>Candidate's Current Location :- " . $this->location;
+            return "Laptop company is " . $this->company . " and Laptop price is " . $this->price;
         }
     }
-    $newCandidates = new Candidates("Aniket", "Nanded");
-    echo $newCandidates -> show();
+    $del = new Laptops("Dell", 25000);
+    echo $del -> show();
     echo "<br>";
-    $newCandidates = new Candidates("Sagar", "Pune");
-    echo $newCandidates -> show();
+    $hp = new Laptops("HP" , 30000);
+    echo $hp -> show();
+
 ?>
 </body>
 </html>
