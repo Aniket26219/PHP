@@ -14,5 +14,5 @@
 ?>
 </body>
 </html>
-<!-- above three methods is_float() and is_double() are to check whether the given number is integer or not -->
+<!-- above three methods is_float() and is_double() are to check whether the given number is float or not -->
 <!-- important thing to know is that even if 4 * 2.5 is 10, the result is stored as float, because one of the operands is a float -->
