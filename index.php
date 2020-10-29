@@ -5,8 +5,8 @@
     $name = "Aniket";
     $location = "Nanded";
     $a = 10; $b = 20;
-    echo "My name is " . $name . " and I live in " . $location . "<br>";
-    echo $a + $b
+    print "My name is " . $name . " and I live in " . $location . "<br>";
+    print $a + $b
 ?>
 </body>
 </html>
