@@ -2,7 +2,8 @@
 <html> 
 <body>
 <?php
-    echo (pi())
+    echo (abs(-34.3))
 ?>
 </body>
 </html>
+<!-- the absolute / abs() function returns +ve value -->
