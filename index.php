@@ -2,10 +2,18 @@
 <html> 
 <body>
 <?php
-    $a = acos(3);
-    var_dump($a)
+    $a = 34 + 10;
+    var_dump(is_numeric($a));
+    echo "<br>";
+    $n = "83";
+    var_dump(is_numeric($n));
+    echo "<br>";
+    $an = "23.98" + 32;
+    var_dump(is_numeric($an));
+    echo "<br>";
+    $na = "Sample text";
+    var_dump(is_numeric($na));
 ?>
 </body>
 </html>
-<!-- the output will show NAN which means Not A Number -->
-<!-- important thing to know is that even if 4 * 2.5 is 10, the result is stored as float, because one of the operands is a float -->
+<!-- from above we can say that if the value is completely text then it will return false and for above other cases it'll return true -->
