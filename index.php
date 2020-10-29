@@ -2,17 +2,22 @@
 <html> 
 <body>
 <?php
-    $txt = "Sample Text";
-    $num = 10;
-    $num1 = 10.4;
-    $bolean = true;
-    $mobiles = array("Samsung", "Iphone", "BlackBerry");
-    var_dump($txt);
-    var_dump($num);
-    var_dump($num1);
-    var_dump($bolean);
-    var_dump($mobiles);
+    class Candidates{
+        public $name;
+        public $location;
+        public function __construct($name, $location){
+            $this->name = $name;
+            $this->location = $location;
+        }
+        public function show(){
+            return "Candidate's Name :- " . $this->name . "<br>Candidate's Current Location :- " . $this->location;
+        }
+    }
+    $newCandidates = new Candidates("Aniket", "Nanded");
+    echo $newCandidates -> show();
+    echo "<br>";
+    $newCandidates = new Candidates("Sagar", "Pune");
+    echo $newCandidates -> show();
 ?>
 </body>
 </html>
-<!-- var_dump($___) this method shows the data type of the variables which is inside. -->
