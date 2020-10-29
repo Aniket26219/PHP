@@ -2,9 +2,11 @@
 <html> 
 <body>
 <?php
-    echo "<h2>Heading</h2>";
-    echo "Hello World <br>";
-    echo "This " , "string ", "is ", "made ", "of ", "multiple ", "parameters."
+    $name = "Aniket";
+    $location = "Nanded";
+    $a = 10; $b = 20;
+    echo "My name is " . $name . " and I live in " . $location . "<br>";
+    echo $a + $b
 ?>
 </body>
 </html>
