@@ -2,18 +2,13 @@
 <html> 
 <body>
 <?php
-    $a = 34 + 10;
-    var_dump(is_numeric($a));
+    $a = 423.3;
+    $n = "3243.24";
+    $a_cast = (int)$a;
+    $n_cast = (int)$n;
+    echo $a_cast;
     echo "<br>";
-    $n = "83";
-    var_dump(is_numeric($n));
-    echo "<br>";
-    $an = "23.98" + 32;
-    var_dump(is_numeric($an));
-    echo "<br>";
-    $na = "Sample text";
-    var_dump(is_numeric($na));
+    echo $n_cast;
 ?>
 </body>
 </html>
-<!-- from above we can say that if the value is completely text then it will return false and for above other cases it'll return true -->
