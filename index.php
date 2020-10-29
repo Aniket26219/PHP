@@ -7,7 +7,7 @@
     function test(){
         // global $a, $b;
         // $b = $a + $b;
-        $GLOBAL['b'] = $GLOBAL['a'] + $GLOBAL['b']; //another approach
+        $GLOBALS['b'] = $GLOBALS['a'] + $GLOBALS['b']; //another approach
     }
     test();
     echo "$b from another approach";
