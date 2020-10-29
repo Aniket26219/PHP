@@ -2,9 +2,9 @@
 <html> 
 <body>
 <?php
-    define("a", "I am Aniket");
-    echo a;
+    define("a", "I am Aniket", true);
+    echo A;
 ?>
 </body>
 </html>
-<!-- in define we are going to define the constant which is not going to change in whole script and by default it is global -->
+<!-- in define the third parameter which is boolean will decide that the constant variable is case sensitive or not if false then it is case sensitive and if true then it is not case sensitive -->
