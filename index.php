@@ -2,9 +2,9 @@
 <html> 
 <body>
 <?php
-    $a = 5;
-    $n = 20;
-    echo $n ** $a;
+    $a = "Aniket";
+    $n = "Nanded";
+    echo $a . " lives in " . $n;
 ?>
 </body>
 </html>
