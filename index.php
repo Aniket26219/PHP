@@ -4,7 +4,7 @@
 <?php
     $a = 5;
     $n = 20;
-    echo $n % $a;
+    echo $n ** $a;
 ?>
 </body>
 </html>
