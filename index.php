@@ -2,9 +2,11 @@
 <html> 
 <body>
 <?php
-    define("mobiles", ["Samsung", "Iphone", "BlackBerry"], true);
-    echo MOBILES[2];
+    define("a", "I am Aniket", true);
+    function test(){
+        echo A;
+    }
+    test();
 ?>
 </body>
 </html>
-<!-- we can define a constant variable as a array like above. The mobiles is a array of constants -->
