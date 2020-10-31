@@ -2,11 +2,9 @@
 <html> 
 <body>
 <?php
-    define("a", "I am Aniket", true);
-    function test(){
-        echo A;
-    }
-    test();
+    $a = 5;
+    $n = 20;
+    echo $n % $a;
 ?>
 </body>
 </html>
