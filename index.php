@@ -2,13 +2,18 @@
 <html> 
 <body>
 <?php
-$x = 0;
+    echo "First code is for Understanding<br><br>";
+    $colors = array("red", "green", "blue", "yellow");
+    
+    foreach ($colors as $value) {
+        echo "$value <br>";
+}
 
-do {
-    $x++;
-    echo "The number is: $x <br>";
-} while ($x <= 5);
+    echo "<br><br>This code is to understand in more better way<br><br>";
+    $age = array("Peter"=>"35", "Ben"=>"37", "Joe"=>"43");
+    foreach($age as $x => $val) {
+    echo "$x = $val<br>";
+}
 ?>
 </body>
 </html>
-<!-- As every body know the do while first it will execute the code then checks the condition. For above code the o/p will from 0-6. Now why 6 is bcuz first it will execute the above loop while the value is still 6 then check condition and stop executing the code. -->
