@@ -2,14 +2,13 @@
 <html> 
 <body>
 <?php
-function sum(int $x, int $y) : int {
-    $z = $x + $y;
-    return $z;
+function sum(&$val) {
+    $val += 10;
 }
-
-echo "5 + 10 = " . sum(5, 10) . "<br>";
-echo "7 + 13 = " . sum(7, 13) . "<br>";
-echo "2 + 4 = " . sum(2, 4);
+$n = 10;
+sum($n);
+echo $n;
 ?>
 </body>
 </html>
+<!-- To turn a function argument which $val into a reference which is $n we are passing to the sum function, the & operator is used -->
