@@ -2,7 +2,7 @@
 <html> 
 <body>
 <?php
-function sum(int $x, int $y) : float {
+function sum(int $x, int $y) : int {
     $z = $x + $y;
     return $z;
 }
