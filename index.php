@@ -2,12 +2,12 @@
 <html> 
 <body>
 <?php
-function sample($name, $yr){
-    echo "$name Refsnes born in $yr.<br>";
+function sample($height = 330){
+    echo "Height :- $height<br>";
 }
-sample("Jani",1983);
-sample("Hege",1993);
-sample("Stale",2000);
+sample(350);
+sample();
+sample(500);
 ?>
 </body>
 </html>
