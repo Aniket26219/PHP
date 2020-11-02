@@ -2,12 +2,14 @@
 <html> 
 <body>
 <?php
-function sample($height = 330){
-    echo "Height :- $height<br>";
+function sum(int $x, int $y) : float {
+    $z = $x + $y;
+    return $z;
 }
-sample(350);
-sample();
-sample(500);
+
+echo "5 + 10 = " . sum(5, 10) . "<br>";
+echo "7 + 13 = " . sum(7, 13) . "<br>";
+echo "2 + 4 = " . sum(2, 4);
 ?>
 </body>
 </html>
