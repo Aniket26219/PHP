@@ -1,6 +1,13 @@
+<!DOCTYPE html>
+<html> 
+<body>
 <?php
-    function addNumbers(int $a, int $b) {
-    return $a + $b;
+function sample($name){
+    echo "$name Refsnes<br>";
 }
-    echo addNumbers(5, "5 days");;
+sample("Jani");
+sample("Hege");
+sample("Stale");
 ?>
+</body>
+</html>
